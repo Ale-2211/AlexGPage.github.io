@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <div>
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+        <section class="registro">
+            <h2>Registrarse</h2>
+            <form method="post" action="mailto:21301497@uttt.edu.mx">
+                <input class="panel" type="text" name="nombres" id="nombres" placeholder="Escriba su nombre" required pattern="[a-z]+">
+                <input class="panel" type="text" name="apellidos" id="apellidos" placeholder="Escriba sus apellidos" required>
+                <input class="panel" type="email" name="correo" id="correo" placeholder="Escriba un correo electrónico" required>
+                <input class="panel" type="password" name="contraseña" id="contraseña" placeholder="Escribe tu contraseña" required>
+                <p>Estoy de acuerdo con los <a href="#">Terminos y Condiciones</a></p>
+                <button class="boton">Registrarse</button>
+                <p><a href="#">¿Ya tienes una cuenta? iniciar sesión</a></p>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
